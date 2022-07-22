@@ -1,0 +1,62 @@
+.features{
+    padding: 110px 0 70px;
+    }
+    .featureHeading{
+        margin-bottom: 90px;
+        padding: 0 35px;
+    }
+    .myThumbanail{
+        margin-bottom: 80px;
+    }
+    .myThumbanail i{
+     font-size: 50px;
+     color: #010101;
+    }
+    .thumbInfo h3{
+        font-size: 22px;
+        color: #010101;
+        margin: 0 0 20px;
+        text-transform: capitalize;
+    }
+    .thumbInfo p{
+        font-size: 16px;
+        color: #898989;
+        margin: 0;
+    }
+
+
+
+
+    @media all and (max-width:768px) {
+        .inspire {
+            padding-top: 0px;
+        }
+        .ipadImg {
+            margin: 40px 0 0 0;
+        }
+        .featureHeading {
+            margin-bottom: 40px !important;
+            padding: 0 5px;
+        }
+        .socialLinks li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .footer .heading-sec { 
+            margin-bottom: 25px;
+        }
+        .contactForm {
+            margin-bottom: 40px;
+        }
+        .header.navbar-default .navbar-toggle {
+            background-color: #fcdb00 !important;
+        }
+        .header.navbar-default .navbar-toggle .icon-bar {
+            background-color: #fff !important;
+        }
+        .header.navbar-default .navbar-collapse,.header.navbar-default .navbar-form {
+            border: none !important;
+        }
+    }
+    
+    

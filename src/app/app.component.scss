@@ -1,0 +1,65 @@
+
+/*::::::::::::::::::::::: helper css :::::::::::::::::::::::*/
+.w-100{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+
+.heading-primary{
+    font-size: 32px;
+    color: #010101;
+    margin: 0 0  25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.heading-sec{
+    font-size: 20px;
+    color: #313841;
+    margin:0 0 25px;
+}
+.para{
+    font-size: 16px;
+    color: #555;
+    margin:0 0 14px;
+}
+
+
+
+
+@media all and (max-width:768px) {
+    .inspire {
+        padding-top: 0px;
+    }
+    .ipadImg {
+        margin: 40px 0 0 0;
+    }
+    .featureHeading {
+        margin-bottom: 40px !important;
+        padding: 0 5px;
+    }
+    .socialLinks li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .footer .heading-sec { 
+        margin-bottom: 25px;
+    }
+    .contactForm {
+        margin-bottom: 40px;
+    }
+    .header.navbar-default .navbar-toggle {
+        background-color: #fcdb00 !important;
+    }
+    .header.navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff !important;
+    }
+    .header.navbar-default .navbar-collapse,.header.navbar-default .navbar-form {
+        border: none !important;
+    }
+}
+

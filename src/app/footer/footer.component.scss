@@ -1,0 +1,107 @@
+.heading-primary{
+    font-size: 32px;
+    color: #010101;
+    margin: 0 0  25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.heading-sec{
+    font-size: 20px;
+    color: #313841;
+    margin:0 0 25px;
+}
+.para{
+    font-size: 16px;
+    color: #555;
+    margin:0 0 14px;
+}
+.w-100{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+.featureHeading{
+    margin-bottom: 90px;
+    padding: 0 35px;
+}
+
+/*:::::::::::::::::::::::: features section css::::::::::::::::::::::::*/
+
+.footer{
+    padding: 95px 0 135px;
+    background-color: #010101;
+}
+.footer .featureHeading{
+    margin-bottom: 130px;
+}
+.footer .heading-primary{
+    color: #fcdb00;
+    font-weight: lighter;
+}
+.footer .heading-sec{
+    color: #898989;
+    margin-bottom: 45px;
+}
+.contactForm{
+    margin-bottom: 70px;
+}
+.submit{
+    border: 1px solid #fcdb00;
+    text-transform: uppercase;
+    background-color: #fcdb00;
+    color: #010101;
+    transition: all .5s ease-in-out;
+}
+.submit:hover{
+    color: #fcdb00;
+    background-color: #010101;
+}
+.socialLinks li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.socialLinks li i{
+    font-size: 41px;
+    color: #fcdb00;
+}
+.footerLinks li, .footerLinks li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+@media all and (max-width:768px) {
+    .inspire {
+        padding-top: 0px;
+    }
+    .ipadImg {
+        margin: 40px 0 0 0;
+    }
+    .featureHeading {
+        margin-bottom: 40px !important;
+        padding: 0 5px;
+    }
+    .socialLinks li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .footer .heading-sec { 
+        margin-bottom: 25px;
+    }
+    .contactForm {
+        margin-bottom: 40px;
+    }
+    .header.navbar-default .navbar-toggle {
+        background-color: #fcdb00 !important;
+    }
+    .header.navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff !important;
+    }
+    .header.navbar-default .navbar-collapse,.header.navbar-default .navbar-form {
+        border: none !important;
+    }
+}
+
